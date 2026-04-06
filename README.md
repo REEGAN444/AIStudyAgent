@@ -55,7 +55,7 @@ cd agentic-ai-study
 ```
 
 
-###2️⃣ Start Ollama (Local LLM)
+2️⃣ Start Ollama (Local LLM)
 ```
 Install Ollama and run:
 
@@ -64,7 +64,7 @@ ollama run llama3.1
 ```
 
 
-###3️⃣ Backend Setup (Spring Boot)
+3️⃣ Backend Setup (Spring Boot)
 ```
 cd backend
 mvn spring-boot:run
@@ -74,7 +74,7 @@ Backend runs on:
 http://localhost:8080
 ```
 
-###4️⃣ Frontend Setup (React)
+4️⃣ Frontend Setup (React)
 ```
 cd frontend
 npm install
@@ -85,26 +85,26 @@ Frontend runs on:
 http://localhost:5173
 ```
 
-###⚙️ Configuration
+⚙️ Configuration
 ```
 application.properties
 server.port=8080
 ```
 
-## H2 DB
+H2 DB
 ```
 spring.datasource.url=jdbc:h2:mem:testdb
 spring.datasource.username= #UserName
 spring.datasource.password= #PassWord
 ```
 
-## Ollama
+Ollama
 ```
 ollama.url=http://localhost:11434/api/generate
 ollama.model=llama3.1
 ```
 
-###🧪 API Endpoint
+🧪 API Endpoint
 ```
 Create Study Plan + Quiz
 POST /goal
@@ -139,12 +139,12 @@ Integration of LLMs with full-stack apps
 Strong problem-solving + product thinking
 ```
 
-###🤝 Contributing
+🤝 Contributing
 ```
 Feel free to fork and improve!
 ```
 
-###🔥 Final Note
+🔥 Final Note
 ```
 This is not just another AI app —
 👉 it’s a complete agentic system built for real-world use.
