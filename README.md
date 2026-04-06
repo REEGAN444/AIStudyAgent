@@ -80,8 +80,8 @@ server.port=8080
 
 # H2 DB
 spring.datasource.url=jdbc:h2:mem:testdb
-spring.datasource.username=sa
-spring.datasource.password=
+spring.datasource.username= #UserName
+spring.datasource.password= #PassWord
 
 # Ollama
 ollama.url=http://localhost:11434/api/generate
